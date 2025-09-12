@@ -1,0 +1,37 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  // 指定預設格式化器為 Prettier
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 如果你曾開啟過 Prettier 的「需要設定檔」，沒放 .prettierrc 時會不動
+  "prettier.requireConfig": false,
+  "i18n-ally.localesPaths": ["i18n", "i18n/locales"],
+  "i18n-ally.displayLanguage": "en-US",
+  "i18n-ally.sourceLanguage": "en-US",
+  "i18n-ally.includeLocales": ["en-US", "zh-TW"],
+  "i18n-ally.annotationLanguages": { "en": "en-US" }, // ← 把 en 視為 en-US
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "i18n-ally.keystyle": "nested"
+}
