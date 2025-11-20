@@ -1,0 +1,27 @@
+{
+  "name": "blues-festival",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@floating-ui/vue": "^1.1.9",
+    "@headlessui/vue": "^1.7.23",
+    "@nuxt/content": "3.8.2",
+    "@nuxt/fonts": "0.12.1",
+    "@nuxt/icon": "2.1.0",
+    "@nuxt/image": "2.0.0",
+    "@nuxtjs/i18n": "^10.2.1",
+    "@vueuse/core": "^14.0.0",
+    "nuxt": "^4.2.1"
+  },
+  "devDependencies": {
+    "@unocss/nuxt": "^66.5.7",
+    "unocss": "^66.5.7"
+  }
+}
