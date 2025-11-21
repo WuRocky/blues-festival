@@ -9,14 +9,16 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/fonts',
     '@unocss/nuxt',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
   ],
-
   i18n: {
     locales: [
       { code: 'zh', file: 'zh.json' },
       { code: 'en', file: 'en.json' }
     ],
     defaultLocale: 'zh'
-  }
+  },
+  unocss: {
+    preflight: true,
+  },
 })
