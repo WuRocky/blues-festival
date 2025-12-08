@@ -5,7 +5,6 @@ const isVisible = ref(false);
 
 const onScroll = () => {
   const y = window.scrollY || window.pageYOffset;
-  // 超過多少高度才顯示（300 自己可以調）
   isVisible.value = y > 0;
 };
 

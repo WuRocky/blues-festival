@@ -18,7 +18,8 @@
     "@nuxt/image": "2.0.0",
     "@nuxtjs/i18n": "^10.2.1",
     "@vueuse/core": "^14.0.0",
-    "nuxt": "^4.2.1"
+    "nuxt": "^4.2.1",
+    "nuxt-swiper": "^2.0.1"
   },
   "devDependencies": {
     "@unocss/nuxt": "^66.5.7",

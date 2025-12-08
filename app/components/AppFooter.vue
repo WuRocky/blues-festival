@@ -8,7 +8,6 @@ const isOpen = ref(false);
 <template>
   <footer class="w-full bg-blue px-6 py-10 mt-20">
     <div class="max-w-screen-xl mx-auto flex flex-col space-y-3">
-      <!-- Event Info -->
       <div class="text-center">
         <div
           class="flex flex-col md:flex-row justify-center items-center md:gap-10 gap-2 opacity-90"

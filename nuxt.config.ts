@@ -4,11 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: [
-    '@nuxt/content',
+    // '@nuxt/content',
     '@nuxt/image',
     '@nuxt/icon',
     '@nuxt/fonts',
     '@unocss/nuxt',
+    'nuxt-swiper',
     '@nuxtjs/i18n',
   ],
   i18n: {
