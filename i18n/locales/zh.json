@@ -1,3 +1,265 @@
 {
-  "title": "test"
+  "nav": {
+    "home": "首頁",
+    "registration": "報名",
+    "teachers": "老師與音樂人",
+    "schedule": "行程",
+    "venue": "活動地點",
+    "info": "活動資訊",
+    "contact": "聯絡方式"
+  },
+  "common": {
+    "date": "日期",
+    "city": "城市"
+  },
+  "event": {
+    "name": "2026 Taiwan Blues ICU",
+    "date": "2026 年 11 月 6 日至 11 月 8 日",
+    "location": "台北",
+    "venue": "主場館與城市社交場地"
+  },
+  "home": {
+    "glance": "活動重點",
+    "sectionLabels": {
+      "priority": "首頁優先處理",
+      "audience": "參加者",
+      "restructure": "內容重構"
+    },
+    "priorityTitle": "目前最需要優化的不是資訊量，而是資訊排序。",
+    "audienceTitle": "不同類型的參加者，會用不同問題判斷要不要報名。",
+    "restructureTitle": "網站要先像一個活動入口，再慢慢補足完整細節。",
+    "hero": {
+      "eyebrow": "藍調舞蹈週末活動",
+      "title": "2026 Taiwan Blues ICU",
+      "subtitle": "一個在台北舉行的 Blues dance weekend，帶來現場音樂、精彩師資，以及來自世界各地的舞者。",
+      "description": "一個在台北舉行的 Blues dance weekend，帶來現場音樂、精彩師資，以及來自世界各地的舞者。",
+      "story1": "2026 年 11 月 6 日至 11 月 8 日，與我們相聚台北，享受一個充滿音樂、連結與 Blues 靈魂的週末。",
+      "story2": "三位老師、三組國際樂隊，以及來自世界各地的 Blues 愛好者，將一起在台灣創造難忘的時刻。",
+      "primaryCta": "查看票種與報名",
+      "secondaryCta": "先看行程",
+      "stats": {
+        "track": "教學主軸",
+        "trackValue": "Partner Blues + Solo Blues",
+        "teachers": "已確認教師",
+        "teachersValue": "3 位",
+        "music": "音樂規劃",
+        "musicValue": "Live Band + Solo Musician"
+      }
+    },
+    "highlights": [
+      {
+        "title": "先說清楚這是什麼活動",
+        "description": "首頁要先建立期待管理。這是一個以 Blues dance 為核心的週末，不是泛社交舞派對，也不只是一般工作坊。"
+      },
+      {
+        "title": "把報名判斷資訊放前面",
+        "description": "使用者最在意的是自己適不適合、票種差異在哪裡、值不值得安排整個週末。這些資訊不該藏太深。"
+      },
+      {
+        "title": "讓音樂與城市感成為賣點",
+        "description": "如果活動在台北，就應把在地氛圍、夜晚社交場景與 live music 一起講出來，這才是 festival 感。"
+      }
+    ],
+    "audience": [
+      {
+        "title": "第一次接觸 Blues 的人",
+        "description": "需要知道可以從哪種票進來，以及不會因為程度焦慮而卻步。"
+      },
+      {
+        "title": "已有跳舞經驗的舞者",
+        "description": "想快速判斷師資、音樂品質、課程深度與 social floor 的能量。"
+      },
+      {
+        "title": "外地或海外參加者",
+        "description": "更在意交通、住宿區域、場館動線與整個週末的安排是否順。"
+      }
+    ],
+    "restructure": [
+      "首頁先回答三件事：這是什麼活動、為什麼值得來、下一步要做什麼。",
+      "導覽名稱要用使用者語言，不要只是內部分類名稱。",
+      "行程頁不只放時間表，也要讓人看懂整個週末的節奏。",
+      "老師頁除了名單，更要說出每位老師與音樂人帶來的特色。",
+      "資訊頁要整理 FAQ、參加對象與現場規範，降低私訊成本。",
+      "活動地點與聯絡方式應各自獨立，方便第一次來的訪客查找。"
+    ]
+  },
+  "teachers": {
+    "label": "Artists",
+    "title": "老師與音樂人",
+    "description": "這一頁要直接把 Partner Blues、Solo Blues 與 Live Music 三條內容線講清楚，而不是只放一排名單。",
+    "liveMusicLabel": "Live Music",
+    "musicTitle": "已規劃邀請的音樂人",
+    "roles": {
+      "partner": "Partner Blues Teacher",
+      "solo": "Solo Blues Teacher",
+      "liveBand": "Live Band",
+      "soloMusician": "Solo Musician"
+    },
+    "sections": {
+      "partner": {
+        "title": "Partner Blues Teachers",
+        "description": "Damon Stone 與 Kelsy Stone 應該作為 Partner Blues 課程主軸呈現，並清楚說明課程方向，例如 connection、conversation 與 partner musicality。"
+      },
+      "solo": {
+        "title": "Solo Blues Teacher",
+        "description": "Catherine Palmier 應該被明確放在 Solo 軸線，讓網站一眼看出活動不只有雙人課程。"
+      },
+      "music": {
+        "title": "Live Music",
+        "description": "The Five Box 與 Stef Rosen 不應只出現在小字。對 Blues 活動來說，音樂人和老師一樣是主要賣點。"
+      }
+    }
+  },
+  "schedule": {
+    "label": "Schedule",
+    "title": "行程",
+    "description": "這頁不該只是時間表，而是要讓人看懂整個週末的節奏，知道什麼時候適合報到、上課、社交與返程。",
+    "days": {
+      "friday": {
+        "title": "抵達、暖身、打開社交場",
+        "items": [
+          "報到與迎新，降低第一次參加的門檻。",
+          "晚間 welcome social，先熟悉音樂、地板與彼此的節奏。",
+          "可安排短場 live set 或 DJ set，建立週末整體音樂方向。"
+        ]
+      },
+      "saturday": {
+        "title": "課程主軸日",
+        "items": [
+          "白天安排主要工作坊，讓 Partner 與 Solo 兩條線清楚展開。",
+          "下午保留休息與移動時間，避免資訊密度過高。",
+          "晚上主派對與 live band，讓學習內容立刻回到 social floor。"
+        ]
+      },
+      "sunday": {
+        "title": "收束、深化、帶著連結離開",
+        "items": [
+          "可用 musicality、connection 或 culture 類型課程作為週末收尾。",
+          "安排 tea dance、community jam 或 chill social，讓活動收束得更完整。",
+          "清楚標示結束時間，方便外地參加者安排返程。"
+        ]
+      }
+    }
+  },
+  "registration": {
+    "label": "Registration",
+    "title": "報名",
+    "description": "這頁的任務不是只放一個按鈕，而是讓訪客快速判斷哪種票適合自己、現在是否該報名，以及有疑問時該去哪裡確認。",
+    "cta": "這裡之後放正式報名連結",
+    "sections": {
+      "passes": {
+        "title": "目前票種規劃",
+        "points": [
+          "Early Bird Full Pass：分為 Group 與 Single 兩種方案，作為最早期主推票種。",
+          "Full Pass：正式票期的完整票種，包含主要課程與派對內容。",
+          "Party Pass：適合主要想來 social dancing 與聽 live music 的人。",
+          "Single Day Pass：適合只能來單日、第一次參加或仍在觀望的人。"
+        ]
+      },
+      "levels": {
+        "title": "把選課與程度問題講清楚",
+        "points": [
+          "Early Bird Full Pass 的 Group 與 Single 差異要清楚寫明。",
+          "雙人課與 Solo 課是否分開選擇，或 Full Pass 是否全部包含。",
+          "若有程度分流，要明確說明，不要只寫 open level。",
+          "退票、轉讓與候補方式要放在報名區附近。"
+        ]
+      },
+      "decision": {
+        "title": "報名頁要更像決策頁",
+        "points": [
+          "在報名按鈕前先列出票種比較表，讓訪客一眼看懂差異。",
+          "如果有早鳥票，請直接顯示截止日期。",
+          "若國內外付款方式不同，也應拆開寫清楚。"
+        ]
+      }
+    }
+  },
+  "venue": {
+    "label": "Venue",
+    "title": "活動地點",
+    "description": "場地頁的任務是讓本地與外地參加者快速理解在哪裡、怎麼去、住哪裡最順。",
+    "sections": {
+      "main": {
+        "title": "主場館資訊",
+        "description": "建議放完整地址、地圖、最近捷運站、步行時間與場地照片。若工作坊與派對在不同場地，也要直接說明。"
+      },
+      "stay": {
+        "title": "住宿區域建議",
+        "description": "不要只列單一飯店，建議提供 2 至 3 個適合住宿的區域與移動時間。"
+      },
+      "transport": {
+        "title": "交通與深夜移動",
+        "description": "如果派對可能晚結束，應補充計程車、捷運末班車與附近便利資訊。"
+      }
+    }
+  },
+  "info": {
+    "label": "Info",
+    "title": "活動資訊",
+    "description": "這頁應該是參加前最實用的一頁，集中整理參加對象、活動形式、FAQ 與現場規範。",
+    "sections": {
+      "audience": {
+        "title": "參加對象",
+        "description": "先說清楚 2026 Taiwan Blues ICU 適合哪些人，例如已有社交舞經驗者、想接觸 Blues 的新朋友，或想同時上 Partner 與 Solo 課的人。"
+      },
+      "format": {
+        "title": "活動形式",
+        "description": "把工作坊、派對、live music 與可能的 special session 明確列出，並與首頁說法保持一致。"
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "建議整理初學者可不可以參加、需不需要固定舞伴、Solo 與雙人課怎麼選、海外舞者怎麼付款。"
+      },
+      "policy": {
+        "title": "現場規範",
+        "description": "可加入 Code of Conduct、安全與尊重政策，讓活動更成熟，也讓第一次參加的人更放心。"
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "聯絡方式",
+    "description": "聯絡頁不只是補一個 email，而是要讓訪客知道票務、合作與一般問題該怎麼找到你。",
+    "email": "Email",
+    "sections": {
+      "primary": {
+        "title": "主要聯絡窗口",
+        "description": "建議至少提供 Email 與 Instagram。若主要處理報名問題，也可加上簡短分流說明。"
+      },
+      "social": {
+        "title": "社群連結",
+        "description": "如果未來會持續透過 Instagram 或 Facebook 公告，聯絡頁要明確放出來，不要只藏在 footer。"
+      },
+      "partnership": {
+        "title": "合作與贊助",
+        "description": "若預期有品牌合作、攝影、志工或住宿合作，聯絡頁可先預留合作說明。"
+      }
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "活動介紹",
+    "description": "這一頁負責承接品牌與理念敘事，不是重複首頁 CTA，而是說清楚為什麼要做這個活動。",
+    "sections": {
+      "vision": {
+        "title": "活動主張",
+        "description": "這一頁應回答：你們為什麼辦這個活動？希望參加者帶走什麼？"
+      },
+      "curatorial": {
+        "title": "策展觀點",
+        "description": "如果你們重視文化脈絡、音樂性、社群安全或在地連結，這裡要說得更具體。"
+      },
+      "community": {
+        "title": "社群承諾",
+        "description": "可以加入 code of conduct、安全與尊重政策，讓品牌更成熟。"
+      }
+    }
+  },
+  "footer": {
+    "eyebrow": "Blues Dance Weekend",
+    "description": "2026 年 11 月 6 日至 11 月 8 日，與我們相聚台北，享受一個充滿音樂、連結與 Blues 靈魂的週末。 三位老師、三組國際樂隊，以及來自世界各地的 Blues 愛好者，將一起在台灣創造難忘的時刻。",
+    "quickLinks": "快速導覽",
+    "contactLine": "聯絡我們"
+  }
 }

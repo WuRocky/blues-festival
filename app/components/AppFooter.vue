@@ -1,39 +1,53 @@
 <script setup>
-import { ref } from "vue";
-import { Dialog, DialogPanel } from "@headlessui/vue";
+import { computed } from "vue";
+import { createEventMeta, createNavigationItems } from "@/data/siteContent";
+import { useI18n } from "#imports";
 
-const isOpen = ref(false);
+const { t } = useI18n();
+const eventMeta = computed(() => createEventMeta(t));
+const navigationItems = computed(() => createNavigationItems(t));
 </script>
 
 <template>
-  <footer class="w-full bg-blue px-6 py-10 mt-20">
-    <div class="max-w-screen-xl mx-auto flex flex-col space-y-3">
-      <div class="text-center">
-        <div
-          class="flex flex-col md:flex-row justify-center items-center md:gap-10 gap-2 opacity-90"
-        >
-          <p>Nov XX–XX, 2026 · Taipei, Taiwan</p>
-          <p>Venue: xxx</p>
-          <p>Contact: xxx@gmail.com</p>
+  <footer class="w-full bg-blue-4 px-6 pt-16 pb-10 text-white">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="grid gap-10 border-t border-white/10 pt-10 text-sm md:grid-cols-3">
+        <div class="space-y-4 text-white/80">
+          <p class="text-xs uppercase tracking-[0.28em] text-white/45">
+            Event
+          </p>
+          <div class="space-y-2 leading-7">
+            <p class="text-white text-xl font-semibold">{{ eventMeta.name }}</p>
+            <p>{{ eventMeta.date }}</p>
+            <p>{{ eventMeta.location }} · {{ eventMeta.venue }}</p>
+          </div>
         </div>
-      </div>
 
-      <div class="text-center">
-        <div class="flex justify-center gap-6 text-2xl">
-          <NuxtLink to="#">
-            <Icon name="i-entypo-social:instagram" size="1.5rem" />
-          </NuxtLink>
-          <NuxtLink to="#">
-            <Icon name="i-entypo-social:facebook" size="1.5rem" />
-          </NuxtLink>
-          <NuxtLink to="#">
-            <Icon name="i-entypo-social:youtube" size="1.6rem" />
-          </NuxtLink>
+        <div class="space-y-4 text-white/80">
+          <p class="text-xs uppercase tracking-[0.28em] text-white/45">
+            {{ $t("footer.quickLinks") }}
+          </p>
+          <div class="grid gap-2">
+            <NuxtLink
+              v-for="item in navigationItems"
+              :key="item.to"
+              :to="item.to"
+              class="text-white/85 transition-colors hover:text-yellow-1"
+            >
+              {{ item.label }}
+            </NuxtLink>
+          </div>
         </div>
-      </div>
 
-      <div class="text-center text-sm opacity-60">
-        © 2026 Blues Festival, VR Blues
+        <div class="space-y-4 text-white/80">
+          <p class="text-xs uppercase tracking-[0.28em] text-white/45">
+            Contact
+          </p>
+          <div class="space-y-2 leading-7">
+            <p>{{ eventMeta.contact }}</p>
+            <p>© 2026 {{ eventMeta.name }}</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

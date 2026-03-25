@@ -1,3 +1,265 @@
 {
-  "title": "test"
+  "nav": {
+    "home": "Home",
+    "registration": "Registration",
+    "teachers": "Teachers & Musicians",
+    "schedule": "Schedule",
+    "venue": "Venue",
+    "info": "Info",
+    "contact": "Contact"
+  },
+  "common": {
+    "date": "Date",
+    "city": "City"
+  },
+  "event": {
+    "name": "2026 Taiwan Blues ICU",
+    "date": "November 6 to November 8, 2026",
+    "location": "Taipei",
+    "venue": "Main Venue and City Social Spaces"
+  },
+  "home": {
+    "glance": "At a glance",
+    "sectionLabels": {
+      "priority": "Homepage Priorities",
+      "audience": "Audience",
+      "restructure": "Content Structure"
+    },
+    "priorityTitle": "The main problem is not the amount of content. It is the order of information.",
+    "audienceTitle": "Different visitors decide whether to join based on different questions.",
+    "restructureTitle": "The site should first work as a clear event entry point, then grow into a fuller festival experience.",
+    "hero": {
+      "eyebrow": "Blues Dance Weekend",
+      "title": "2026 Taiwan Blues ICU",
+      "subtitle": "A Blues dance weekend in Taipei with live music, inspiring teachers, and dancers from around the world.",
+      "description": "A Blues dance weekend in Taipei with live music, inspiring teachers, and dancers from around the world.",
+      "story1": "2026 Taiwan Blues ICU",
+      "story2": "A Blues dance weekend in Taipei with live music, inspiring teachers, and dancers from around the world.",
+      "primaryCta": "View Passes & Registration",
+      "secondaryCta": "See Schedule",
+      "stats": {
+        "track": "Main Tracks",
+        "trackValue": "Partner Blues + Solo Blues",
+        "teachers": "Confirmed Teachers",
+        "teachersValue": "3",
+        "music": "Music Plan",
+        "musicValue": "Live Band + Solo Musician"
+      }
+    },
+    "highlights": [
+      {
+        "title": "State clearly what kind of event this is",
+        "description": "The homepage should set expectations first. This is a Blues dance centered weekend, not a generic social dance party or a loose workshop page."
+      },
+      {
+        "title": "Put decision-making info early",
+        "description": "Visitors care about fit, pass differences, and whether the weekend is worth committing to. That information should not be buried."
+      },
+      {
+        "title": "Make music and place part of the appeal",
+        "description": "If the event is in Taipei, the local atmosphere, night energy, and live music should be part of the story. That is what makes it feel like a festival."
+      }
+    ],
+    "audience": [
+      {
+        "title": "People new to Blues",
+        "description": "They need to know where they can enter and whether the event feels approachable."
+      },
+      {
+        "title": "Experienced social dancers",
+        "description": "They want a fast read on the teaching quality, music, class depth, and social floor energy."
+      },
+      {
+        "title": "Out-of-town or international visitors",
+        "description": "They care more about transport, lodging areas, venue flow, and whether the full weekend plan feels smooth."
+      }
+    ],
+    "restructure": [
+      "The homepage should answer three things first: what this event is, why it is worth attending, and what to do next.",
+      "Navigation should use visitor language, not internal category language.",
+      "The schedule page should explain the rhythm of the weekend, not only list blocks of time.",
+      "The teachers page should explain what each teacher and musician brings, not only show names.",
+      "The info page should consolidate FAQ, audience fit, and on-site policies.",
+      "Venue and contact should stay separate so first-time visitors can find what they need quickly."
+    ]
+  },
+  "teachers": {
+    "label": "Artists",
+    "title": "Teachers & Musicians",
+    "description": "This page should clearly present Partner Blues, Solo Blues, and Live Music as three distinct content lines rather than as one long list of names.",
+    "liveMusicLabel": "Live Music",
+    "musicTitle": "Planned Music Guests",
+    "roles": {
+      "partner": "Partner Blues Teacher",
+      "solo": "Solo Blues Teacher",
+      "liveBand": "Live Band",
+      "soloMusician": "Solo Musician"
+    },
+    "sections": {
+      "partner": {
+        "title": "Partner Blues Teachers",
+        "description": "Damon Stone and Kelsy Stone should anchor the Partner Blues track, with clear emphasis on class direction such as connection, conversation, and partner musicality."
+      },
+      "solo": {
+        "title": "Solo Blues Teacher",
+        "description": "Catherine Palmier should sit clearly on the solo track so visitors immediately understand that the event includes more than partner classes."
+      },
+      "music": {
+        "title": "Live Music",
+        "description": "The Five Box and Stef Rosen should not be treated as small-print details. For a Blues event, musicians are core reasons to attend."
+      }
+    }
+  },
+  "schedule": {
+    "label": "Schedule",
+    "title": "Schedule",
+    "description": "This page should do more than present a timetable. It should help people understand the rhythm of the weekend and how to plan arrival, classes, social dancing, and departure.",
+    "days": {
+      "friday": {
+        "title": "Arrive, warm up, and open the social floor",
+        "items": [
+          "Check-in and welcome moments lower the barrier for first-time attendees.",
+          "An evening welcome social helps people settle into the music, the floor, and each other.",
+          "A short live set or DJ set can establish the musical tone of the weekend."
+        ]
+      },
+      "saturday": {
+        "title": "Main teaching day",
+        "items": [
+          "Daytime workshops should clearly open both the Partner and Solo tracks.",
+          "Leave room for breaks and movement between venues so the day does not feel overloaded.",
+          "The main party and live band should bring class material directly back onto the social floor."
+        ]
+      },
+      "sunday": {
+        "title": "Close, deepen, and leave with connection",
+        "items": [
+          "Musicality, connection, or culture-focused classes can work well as closing sessions.",
+          "A tea dance, community jam, or chill social gives the weekend a more complete landing.",
+          "The end time should be clearly shown so out-of-town guests can plan travel."
+        ]
+      }
+    }
+  },
+  "registration": {
+    "label": "Registration",
+    "title": "Registration",
+    "description": "This page should not only present a button. It should help visitors decide which pass fits them, whether they should register now, and where to look when they have questions.",
+    "cta": "Official registration link goes here later",
+    "sections": {
+      "passes": {
+        "title": "Current pass structure",
+        "points": [
+          "Early Bird Full Pass: offered in Group and Single versions as the main early release option.",
+          "Full Pass: the regular full-event pass covering the main classes and parties.",
+          "Party Pass: for people mainly coming for social dancing and live music.",
+          "Single Day Pass: for people joining one day only, attending for the first time, or still deciding."
+        ]
+      },
+      "levels": {
+        "title": "Make class choice and level questions clear",
+        "points": [
+          "The difference between Group and Single Early Bird Full Pass should be explained clearly.",
+          "Clarify whether Partner and Solo classes are selected separately or fully included in the Full Pass.",
+          "If there is level placement, explain it directly rather than only saying open level.",
+          "Refund, transfer, and waitlist policy should sit close to the registration area."
+        ]
+      },
+      "decision": {
+        "title": "The page should work like a decision page",
+        "points": [
+          "Add a pass comparison table before the registration button so differences are obvious at a glance.",
+          "If you have an early bird period, show the exact deadline date.",
+          "If domestic and international payments differ, explain that clearly as well."
+        ]
+      }
+    }
+  },
+  "venue": {
+    "label": "Venue",
+    "title": "Venue",
+    "description": "The venue page should help both local and out-of-town visitors quickly understand where the event is, how to get there, and where it is convenient to stay.",
+    "sections": {
+      "main": {
+        "title": "Main venue information",
+        "description": "Add the full address, map, nearest metro station, walking time, and venue photos. If workshops and parties use different spaces, say that directly."
+      },
+      "stay": {
+        "title": "Suggested lodging areas",
+        "description": "Do not only list one hotel. Suggest two or three useful neighborhoods and note travel time."
+      },
+      "transport": {
+        "title": "Transport and late-night movement",
+        "description": "If parties run late, include taxi notes, metro last train details, and nearby convenience spots."
+      }
+    }
+  },
+  "info": {
+    "label": "Info",
+    "title": "Info",
+    "description": "This page should serve as the most practical pre-event page, collecting audience fit, event format, FAQ, and on-site policies in one place.",
+    "sections": {
+      "audience": {
+        "title": "Who this is for",
+        "description": "State clearly who 2026 Taiwan Blues ICU is for, such as social dancers with prior experience, newcomers to Blues, or dancers wanting both Partner and Solo classes in one weekend."
+      },
+      "format": {
+        "title": "Event format",
+        "description": "List workshops, parties, live music, and any special sessions clearly, and keep the framing consistent with the homepage."
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "It should answer whether beginners can join, whether a fixed partner is needed, how Solo and Partner tracks relate, and how international attendees can pay."
+      },
+      "policy": {
+        "title": "On-site policy",
+        "description": "A code of conduct, safety, and respect policy will make the event feel more mature and more welcoming for first-time attendees."
+      }
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "title": "Contact",
+    "description": "This page should do more than list an email. It should show where registration questions, partnerships, and general inquiries should go.",
+    "email": "Email",
+    "sections": {
+      "primary": {
+        "title": "Primary contact",
+        "description": "At minimum, provide email and Instagram. If registration questions are common, add a short note to route them."
+      },
+      "social": {
+        "title": "Social links",
+        "description": "If Instagram or Facebook will carry ongoing updates, show them clearly on this page rather than hiding them only in the footer."
+      },
+      "partnership": {
+        "title": "Partnerships and sponsorship",
+        "description": "If you expect brand partnerships, photographers, volunteers, or lodging partners, reserve space for that here."
+      }
+    }
+  },
+  "about": {
+    "label": "About",
+    "title": "About",
+    "description": "This page should carry the event vision and positioning rather than repeating the homepage CTA.",
+    "sections": {
+      "vision": {
+        "title": "Event vision",
+        "description": "This page should answer why you are organizing this event and what you want people to take away from it."
+      },
+      "curatorial": {
+        "title": "Curatorial perspective",
+        "description": "If the event values cultural context, musicality, community safety, or local connection, this is where that position should become explicit."
+      },
+      "community": {
+        "title": "Community commitment",
+        "description": "You can add a code of conduct and a safety and respect policy here to make the brand feel more grounded and mature."
+      }
+    }
+  },
+  "footer": {
+    "eyebrow": "2026 Taiwan Blues ICU",
+    "description": "A Blues dance weekend in Taipei with live music, inspiring teachers, and dancers from around the world.",
+    "quickLinks": "Quick Links",
+    "contactLine": "Contact"
+  }
 }

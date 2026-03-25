@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen flex flex-col items-center justify-center">
+  <main class="min-h-screen mt-68px">
     <HeroHome />
   </main>
 </template>
